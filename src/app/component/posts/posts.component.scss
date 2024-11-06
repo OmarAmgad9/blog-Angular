@@ -1,0 +1,36 @@
+/* carousel.component.scss */
+.carousel-item .card-body {
+  background-color: #2C3E50;
+  color: white;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #E74C3C; /* Accent red for navigation arrows */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  filter: invert(1); /* Makes the controls visible on dark background */
+}
+.left{
+  margin: auto;
+  width: 82%;
+}
+.card{
+  width: 85%;
+}
+
+$primary-color:#2C3E50;
+$second-color: #E74C3C ;
+
+.cool{
+  background-color: $second-color;
+  color: $primary-color;
+}
+.cool h5{
+  font-size: 24px;
+}
+.cool p{
+  font-size: 14px;
+}
